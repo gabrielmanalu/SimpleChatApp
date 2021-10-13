@@ -16,6 +16,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.SimpleChatApp">
         <activity
+            android:name=".ChatActivity"
+            android:exported="true" />
+        <activity
             android:name=".RegisterActivity"
             android:exported="true" />
         <activity

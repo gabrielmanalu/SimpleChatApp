@@ -1,7 +1,9 @@
 package com.example.simplechatapp.Fragment;
 
+import androidx.activity.result.contract.ActivityResultContracts;
 import androidx.lifecycle.ViewModelProvider;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.annotation.NonNull;
@@ -18,6 +20,7 @@ import android.view.ViewGroup;
 
 import com.amulyakhare.textdrawable.TextDrawable;
 import com.amulyakhare.textdrawable.util.ColorGenerator;
+import com.example.simplechatapp.ChatActivity;
 import com.example.simplechatapp.Common.Common;
 import com.example.simplechatapp.Model.UserModel;
 import com.example.simplechatapp.R;
@@ -97,7 +100,9 @@ public class PeopleFragment extends Fragment {
                     holder.img_avatar.setImageDrawable(drawable);
 
                     holder.itemView.setOnClickListener(v -> {
-
+                        Common.chatUser = model;
+                        Common.chatUser.setUid(mAdapter.getRef(position).getKey());
+                        startActivity(new Intent(getContext(), ChatActivity.class));
                     });
                 }
                 else {

@@ -9,4 +9,10 @@
     <string name="continue_text">Continue</string>
     <string name="user1">User</string>
     <string name="bio_1">Hi everyone!</string>
+    <string name="last_message">How are you?</string>
+    <string name="time_text">21:00</string>
+    <string name="user2">User2</string>
+    <string name="your_message">Your Message</string>
+    <string name="message">Message</string>
+    <string name="time">5 minutes</string>
 </resources>

@@ -7,17 +7,17 @@
     app:cardBackgroundColor="@color/chat_list_color"
     app:cardCornerRadius="8dp"
     app:cardElevation="8dp">
-
+    
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="8dp">
 
         <ImageView
-            android:id="@+id/img_avatar"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_centerVertical="true" />
+            android:layout_centerVertical="true"
+            android:id="@+id/img_avatar"/>
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -31,19 +31,38 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/user1"
-                android:textSize="22sp"
+                android:textColor="@color/black"
+                android:textSize="24sp"
                 android:textStyle="bold" />
 
             <TextView
-                android:id="@+id/txt_bio"
+                android:id="@+id/txt_last_message"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/bio_1"
-                android:textSize="16sp" />
+                android:text="@string/last_message"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
 
         </LinearLayout>
 
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/text_time"
+                android:textSize="18sp"
+                android:text="@string/time_text"/>
+
+        </LinearLayout>
+
+
     </RelativeLayout>
+
 
 
 
