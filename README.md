@@ -2,8 +2,8 @@
 Simple Chat App using Firebase. Login Authentication by using a phone-number. Sending text and pictures, set Bio, and get notifications.
 
 ## Demo
-| col 1      | col 2      |
-|------------|-------------|
+| Register       | Chat Demo      |
+|----------------|----------------|
 | ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/simpleChatAppsRegis.gif) | ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/simpleChatApps.gif) |
 
 - ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/notif.png)
