@@ -6,8 +6,8 @@ Simple Chat App using Firebase. Login Authentication by using a phone-number. Se
 |----------------|----------------|
 | ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/simpleChatAppsRegis.gif) | ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/simpleChatApps.gif) |
 
-- ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/notif.png)
-- ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/bio.png)
+# ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/notif.png)
+# ![alt text](https://github.com/gabrielmanalu/Simple_Chat_App/blob/master/bio.png)
 
 ## Features
 - Using Firebase Authentication and Realtime Database.
